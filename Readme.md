@@ -1,1 +1,0 @@
-### place to try out qr codes: generating and linking them to different websites
