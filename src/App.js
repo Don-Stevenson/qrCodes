@@ -1,10 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "./style.css";
+import QRCode from "./components/QRCode";
 
-function App() {
+const App = () => {
   return (
- <div>Learn QR Codes</div>
+    <container>
+      <h1 className="title">Learn QR Codes</h1>
+      <div className="section container">
+        <QRCode />
+      </div>
+    </container>
   );
-}
+};
 
 export default App;
